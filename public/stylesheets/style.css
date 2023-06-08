@@ -3,19 +3,16 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image:    url(../images/background.jpg);
   background-size:     cover;                      
-  /* background-repeat:   no-repeat; */
   background-position: center center; 
-  color: white;
-  align-items: center;
-  text-align: center;
-  height: 100%;
+  color: black;
+  height: 1000px;
 }
 
 a {
   color: #00B7FF;
 }
 
-#nav{
+/* #nav{
   position: relative;
   width: 100%;
   height: 100px;
@@ -56,26 +53,31 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
-}
+} */
 
 #header{
   position: relative;
-  top: 50%;
+  align-items: center;
+  top: 3%;
+  right: 10%;
   margin: -10px auto;
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 40%;
   background-color: bisque;
   border-radius: 20px;
   padding: 20px;
+  box-shadow: -10px 10px 5px black;
 }
 
 .image{
   display: inline-block;
   margin: 40px;
+  padding: 10px;
   background-position: center center;
   background-image: url(../images/download.png);
   height: 200px;
   width: 200px;
+  border-radius: 50%;
 }
 
 #name{
@@ -86,3 +88,103 @@ a {
   margin: 40px;
 }
 
+#main{
+  position: relative;
+  align-items: center;
+  top: 3%;
+  left: 10%;
+  margin: 30px auto;
+  width: 50%;
+  height: 40%;
+  background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+
+#about1, #about2{
+  text-shadow: 2px 2px 5px rgb(40, 140, 255); 
+}
+
+
+.title{
+  text-align: center;
+}
+
+.content{
+  padding-top: 20px;
+  text-align: justify;
+}
+
+#science{
+  position: relative;
+  align-items: center;
+  top: 3%;
+  right: 10%;
+  margin: -10px auto;
+  width: 50%;
+  height: 40%;
+  background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: -10px 10px 5px black;
+}
+
+#languages{
+  position: relative;
+  align-items: center;
+  top: 3%;
+  left: 10%;
+  margin: 30px auto;
+  width: 50%;
+  height: 40%;
+  background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px black;
+}
+
+#links{
+  position: relative;
+  align-items: center;
+  top: 3%;
+  right: 10%;
+  margin: -10px auto;
+  width: 50%;
+  height: 40%;
+  background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: -10px 10px 5px black;
+  margin-bottom: 40px;
+}
+
+.circle{
+  margin: -10px 2px 15px 2px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(122, 248, 84);
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px black;
+  border: #272727 1px solid;
+}
+.circle-white{
+  margin: -10px 2px 15px 2px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(78, 242, 253);
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px black;
+  border: #272727 1px solid;
+}
+.language{
+  clear: both;
+  text-shadow: 2px 2px 5px rgb(122, 248, 84);
+}
+
+#ex{
+  text-shadow: 2px 2px 5px rgb(122, 248, 84); 
+}
