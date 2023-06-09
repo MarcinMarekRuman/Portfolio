@@ -1,11 +1,16 @@
 body {
-  padding: 50px;
+  
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image:    url(../images/background.jpg);
   background-size:     cover;                      
   background-position: center center; 
   color: black;
   height: 1000px;
+  margin:0px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 a {
@@ -58,15 +63,23 @@ a {
 #header{
   position: relative;
   align-items: center;
-  top: 3%;
-  right: 10%;
-  margin: -10px auto;
-  width: 50%;
-  height: 40%;
-  background-color: bisque;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(73, 72, 71);
   border-radius: 20px;
   padding: 20px;
-  box-shadow: -10px 10px 5px black;
+}
+
+#container{
+  position: relative;
+  left: 50%;
+  bottom: 10%;
+  background-color: red;
+  width: 800px;
+  height: 700px;
+  border-radius: 10px;
+
 }
 
 .image{
@@ -91,15 +104,11 @@ a {
 #main{
   position: relative;
   align-items: center;
-  top: 3%;
-  left: 10%;
-  margin: 30px auto;
-  width: 50%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+  border: black 2px solid;
 }
 
 
@@ -120,44 +129,29 @@ a {
 #science{
   position: relative;
   align-items: center;
-  top: 3%;
-  right: 10%;
-  margin: -10px auto;
-  width: 50%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
   border-radius: 20px;
-  padding: 20px;
-  box-shadow: -10px 10px 5px black;
 }
 
 #languages{
   position: relative;
   align-items: center;
-  top: 3%;
-  left: 10%;
-  margin: 30px auto;
-  width: 50%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
   border-radius: 20px;
-  padding: 20px;
-  box-shadow: 10px 10px 5px black;
 }
 
 #links{
   position: relative;
   align-items: center;
-  top: 3%;
-  right: 10%;
-  margin: -10px auto;
-  width: 50%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
   border-radius: 20px;
   padding: 20px;
-  box-shadow: -10px 10px 5px black;
-  margin-bottom: 40px;
 }
 
 .circle{
