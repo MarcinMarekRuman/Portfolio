@@ -5,7 +5,7 @@ body {
   background-size:     cover;                      
   background-position: center center; 
   color: black;
-  height: 1000px;
+  height: 950px;
   margin:0px;
 }
 
@@ -17,14 +17,14 @@ a {
   color: #00B7FF;
 }
 
-/* #nav{
+#nav{
   position: relative;
-  width: 100%;
+  left: 44%;
+  bottom: 30%;
+  width: 1000px;
   height: 100px;
   background-color: blue;
   border-radius: 20px;
-  margin-bottom: 20px;
-  
 }
 
 .ad1{
@@ -58,7 +58,7 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
-} */
+}
 
 #header{
   position: relative;
@@ -74,7 +74,7 @@ a {
 #container{
   position: relative;
   left: 50%;
-  bottom: 10%;
+  bottom: 20%;
   background-color: red;
   width: 800px;
   height: 700px;
