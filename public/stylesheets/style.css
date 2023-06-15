@@ -1,3 +1,4 @@
+
 body {
   
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,8 +6,10 @@ body {
   background-size:     cover;                      
   background-position: center center; 
   color: black;
-  height: 950px;
+  width: 100%;
+  height: 100%;
   margin:0px;
+  padding: 0px;
 }
 
 html{
@@ -18,11 +21,12 @@ a {
 }
 
 #nav{
-  position: relative;
+  position: absolute;
   left: 44%;
-  bottom: 30%;
+  bottom: 90%;
   width: 1000px;
   height: 100px;
+
   background-color: blue;
   border-radius: 20px;
 }
@@ -34,6 +38,9 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
+  color: azure;
+  align-items: center;
+  text-align: center;
 }
 .ad2{
   vertical-align:top;
@@ -42,6 +49,9 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
+  color: azure;
+  align-items: center;
+  text-align: center;
 }
 .ad3{
   vertical-align:top;
@@ -50,6 +60,9 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
+  color: azure;
+  align-items: center;
+  text-align: center;
 }
 .ad4{
   vertical-align:top;
@@ -58,6 +71,9 @@ a {
   height: 50px;
   width: 20%;
   background-color: black;
+  color: azure;
+  align-items: center;
+  text-align: center;
 }
 
 #header{
@@ -67,7 +83,6 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgb(73, 72, 71);
-  border-radius: 20px;
   padding: 20px;
 }
 
@@ -75,7 +90,7 @@ a {
   position: relative;
   left: 50%;
   bottom: 20%;
-  background-color: red;
+  background-color: rgb(73, 72, 71);
   width: 800px;
   height: 700px;
   border-radius: 10px;
@@ -102,8 +117,9 @@ a {
 }
 
 #main{
-  position: relative;
+  position: absolute;
   align-items: center;
+  bottom: 20%;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
@@ -127,31 +143,36 @@ a {
 }
 
 #science{
-  position: relative;
+  position: absolute;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
-  border-radius: 20px;
-}
-
-#languages{
-  position: relative;
-  align-items: center;
+  bottom: 20%;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
-  border-radius: 20px;
+  border-radius: 10px;
+  border: black 2px solid;
+}
+
+#languages{
+  position: absolute;
+  align-items: center;
+  bottom: 20%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
+  border-radius: 10px;
+  border: black 2px solid;
 }
 
 #links{
-  position: relative;
+  position: absolute;
   align-items: center;
+  bottom: 0.1%;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(90deg, #bebebe 20%, #4e4a4a);
-  border-radius: 20px;
-  padding: 20px;
+  background-image: linear-gradient(90deg, #4e4a4a 20%, #bebebe );
+  border-radius: 10px;
+  border: black 2px solid;
 }
 
 .circle{
