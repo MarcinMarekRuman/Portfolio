@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Impact, fantasy;
+}
+
+html, body #fullheight {
+    min-height: 100%  !important;
+    height: 100%;
+    background-color: black;
+}
+
+.wrapper{
+    height: 100%;
+    background-image: url(photos/background.jpg);
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #303030;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.photo{
+    height: 10vh;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    padding-top: 4px;
+    margin: 0;
+    min-width: 80px;
+    
+}
+
+i {
+    color: white;
+    text-align: center;
+    font-size: 9vh;
+    width: 5vh;
+    height: 5vh;
+    align-self: center;
+    justify-self: center;
+}
+
+.fa-github{
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+}
+
+
+.buttons{
+    height: 10vh;
+    width: 80%;
+    float: right;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+}
+.menuButton{
+    cursor: pointer;
+    width: 50%;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 174, 255);
+    border: none;
+    border-radius: 5%;
+    min-width: 100px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 2px 2px;
+}
+
+.menuButton:hover{
+    background-color: rgb(109, 69, 253);
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+
+.about{
+    background-color: rgb(69, 181, 255);
+
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MainPhoto {
+    height: 60vh;
+    background-color: rgb(69, 181, 255);
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 50%;
+    min-width: 574px;
+    
+}
+
+.port {
+    border-radius: 10%;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+}
+
+.description{
+    display: flex;
+  float: right;
+  height: 56vh;
+  background-color: rgba(102, 102, 102, 0.897);
+  width: 36%;
+  margin: 0;
+  color: white;
+  text-align: justify;
+  border-radius: 8%;
+  padding: 2%;
+  min-width: 574px;
+  font-size: 25px;
+  box-shadow: 2px 2px black;
+}
+
+.desc1{
+    justify-self: center;
+    display: flex;
+    font-size: 40px;
+}
+
+
+.learning{
+    background-color: black;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.logos {
+    height: 56vh;
+    background-color:rgb(69, 181, 255);
+    width: 40%;
+    margin: 0;
+    padding-top: 4vh;
+    display: flex;
+    border-radius: 0;
+    min-width: 574px;
+    text-align: right;
+    justify-content: center;
+}
+
+.dscs{
+  display: flex;
+  float: right;
+  height: 60vh;
+  background-color: rgb(69, 181, 255);
+  width: 36%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  justify-content: start;
+  border-radius: 0;
+  min-width: 574px;
+  font-size: 25px;
+}
+
+ul{
+ justify-self: center;
+ align-self: center;
+ padding-left: 10%;
+ list-style-type: none;
+ text-align: center;
+}
+
+.wsb{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 30%;
+    border: 1px solid black;
+}
+
+.energetyk{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 30%;
+    border: 1px solid black;
+}
+
+.languages{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    text-align: center;
+ 
+}
+
+.tile{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.p1{
+    padding-left: 2vh;
+    font-size: 20px;
+}
+
+.p2{
+    padding-left: 3vh;
+    font-size: 20px;
+}
+
+.p3{
+    padding-left: 5vh;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(69, 181, 255);
+    border: 1px solid black;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    justify-content: space-evenly;
+
+}
+
+.fa-phone, .fa-envelope, .fa-copyright{
+    font-size: 3vh;
+    color: black;
+}
+.copyright{
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+}
