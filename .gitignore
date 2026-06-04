@@ -1,0 +1,17 @@
+.vs/
+__pycache__/
+*.pyc
+
+# Python venv
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Visual Studio
+*.user
+*.suo
+bin/
+obj/
