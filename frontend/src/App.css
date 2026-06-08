@@ -1,7 +1,12 @@
 .avatarSection {
-    height: 60vh;
     width: 100%;
+    height: 60vh;
+    min-height: unset;
+    position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .canvasContainer {
     height: 100%;
