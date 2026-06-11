@@ -6,8 +6,8 @@ export default function Avatar() {
     return (
         <primitive
             object={model.scene}
-            scale={0.03}
-            position={[0, -1, 0]}
+            scale={0.04}
+            position={[0, -2, 0]}
             rotation={[0, Math.PI, 0]}
         />
     );
